@@ -1,0 +1,233 @@
+body{
+    background-color: black;
+}
+container {
+    border:none;
+    margin:0 auto;
+    display:flex;
+    height: auto;
+    width: 70%;
+    padding-left:10%;
+    padding-right:10%;
+    background-color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-direction: column;
+}
+header {
+    border:none;
+    padding-left:10%;
+    padding-right:10%;
+    height: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color: #1F2937;
+}
+.header-one {
+    display:flex;
+    font-size:18px;
+    color:#E5E7EB;
+    
+}
+.header-one div {
+    flex: 1 1 0%;
+}
+.header-one .logo{
+    margin-top:2%;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.header-one .nav-list{
+    display:flex;
+    flex-wrap:wrap;
+    gap:1rem;
+    list-style: none;
+}
+.header-two{
+    display:flex;
+    margin-top:10%;
+    margin-bottom: 10%;
+}
+.header-two div{
+    flex: 1 1 0;
+}
+.header-two .left .one{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+.header-two .left .two{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header-two .right{
+    background-color: grey;
+    color:#E5E7EB;
+    width:30%;
+    height:15%;
+    margin-left:50px;
+}
+.header-two .right p{
+    margin:20%;
+}
+.header-two .left .three button{
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 5% 5%;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration:none;
+    font-weight:bold;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 2px;
+    cursor: pointer;
+}
+content{
+    border: none;
+    padding-left:10%;
+    padding-right:10%;
+    height: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color: white;
+}
+content .content-one{
+    text-align:center;
+    padding:5%;
+    font-weight: bold;
+    font-size: 36px;
+    color: #1F2937;
+}
+content .content-two{
+    display:flex;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+content .content-two button{
+    border: 4px solid #3882F6;
+    padding: 6%;
+    width:10%;
+    height:15%;
+    margin:60% 60% 60% 0;
+    border-radius: 10px;
+    font-weight:bold;
+    display: inline-block;
+    margin: 8px 2px;
+    cursor: pointer;
+    flex:1 1 1;
+}
+content .content-three{
+    display:flex;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+    gap: 5%;
+}
+content .content-three button{
+    border:none;
+    background-color: white;
+    padding: 0%;
+    margin:0% 60% 60% 60%;
+    width:13%;
+    height:15%;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 8px 2px;
+    cursor: pointer;
+    flex:1 1 1;
+}
+section{
+    background-color: #e5e7eb;
+    padding:10%;
+}
+section blockquote{
+    font-size: 36px;
+    color:#1f2937;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 5% 7% 0% 7%;
+}
+section p{
+    color:black;
+    font-weight:bold;
+    font-size:30px;
+    text-align: end;
+    margin-right:7%;
+}
+
+article{
+    background-color: white;
+    padding-right:10%;
+    padding-left:10%;
+    
+}
+article div{
+    display:flex;
+}
+article .bottom-blue{
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    margin: 10% 5% 10% 5%;
+    padding:3% 10% 3% 10%;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration:none;
+    font-weight:bold;
+    display: flex;
+    font-size: 16px;
+    gap:10%;
+}
+article .bottom-blue .blue{
+    flex-direction: column;
+    padding:2%;
+    
+
+}
+article .bottom-blue .blue-left-one{
+    margin-bottom:0%;
+    padding-bottom:0%;
+    font-size:22px;
+    font-weight: bold;
+}
+article .bottom-blue .blue-left-two{
+    font-weight: lighter;
+    color:#E5E7EB;
+    margin-top:0%;
+    padding:0%;
+}
+article .bottom-blue button{
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;
+    color: white;
+    width:200%;
+    padding: 6%;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration:none;
+    font-weight:bold;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5%;
+    cursor: pointer;
+}
+footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding-right:10%;
+    padding-left:10%;
+    padding-top:3%;
+    padding-bottom:3%;
+}
